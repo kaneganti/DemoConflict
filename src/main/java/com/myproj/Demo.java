@@ -9,6 +9,10 @@ public class Demo {
         for(int j=name.length();j>0;j--){
             nameRev=nameRev+name.substring(j-1,j);
         }
+        int test=3;
+        for(int ii=1;ii<=test;ii++)
+            System.out.println("Integer value ::"+ii);
+
         System.out.println("New Name ::"+nameRev);
             if(num==0 || num==1){
                 System.out.println(" Its Prime number"+num);
@@ -24,8 +28,6 @@ public class Demo {
             }
         if(!flag)
             System.out.println("Prime number ::"+num);
-      int var=3;
-        for(int ii=1;ii<=var;ii++)
-            System.out.println("Integer value ::"+ii);
+
     }
 }
