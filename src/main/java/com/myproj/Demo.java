@@ -16,7 +16,7 @@ public class Demo {
             }else {
                 for (int i = 2; i < num / 2; i++) {
                     if (num % i == 0) {
-                        System.out.println("Its nota prime number as its divisible by :"+i);
+                        System.out.println("Its not a prime number as its divisible by number :"+i);
                         flag = true;
                         break;
                     }
