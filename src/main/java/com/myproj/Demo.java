@@ -19,6 +19,8 @@ public class Demo {
         if(!flag)
             System.out.println("Prime number ::"+num);
         System.out.println("my intellij proj");
+        System.out.println("My remote changes applies");
+
         System.out.println("my local changes applied");
     }
 }
